@@ -28,14 +28,36 @@
 
 
 
-//SPREAD EXAMPLE
-
-const items = document.querySelectorAll('li');
+//SPREAD EXAMPLEs
 
 
-///map so retorna array
-[...items].map(item => {
-    console.log(item)
-})
 
-console.log(items)
+// - 1
+
+
+// const items = document.querySelectorAll('li');
+
+
+// ///map so retorna array
+// [...items].map(item => {
+//     console.log(item)
+// })
+
+// console.log(items)
+
+
+
+// - 2 - Clonando objetos
+
+const carro = {
+    cor: "azul",
+    portas: 4,
+    ano: 2022
+};
+
+
+const cloneCarro = {...carro, turbo: true} //pega todas as props de carro e add mais
+
+
+console.log(cloneCarro2)
+
