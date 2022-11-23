@@ -25,3 +25,17 @@
 // const numeros = [1, 2, 3, 4, 5, 66, 7, 8, 9]
 
 // console.log(Math.max(...numeros))  ///forma de espalhar os numeros ou por um por um no array
+
+
+
+//SPREAD EXAMPLE
+
+const items = document.querySelectorAll('li');
+
+
+///map so retorna array
+[...items].map(item => {
+    console.log(item)
+})
+
+console.log(items)
