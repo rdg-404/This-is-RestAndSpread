@@ -84,3 +84,30 @@ Rest só aceita _...varName_ no final dos parâmetros
 
 * Herda todas as props do objeto e adiciona mais, caso precise
 
+
+``` css
+  class Transporte {
+    constructor() {
+      this.terrestre = true;
+    }
+    andar(){
+      console.log("andou")
+    }
+  }
+
+  class Carro extends Transporte {
+    constructor(cor, portas) {
+      super(); //ativar a extends de transporte
+      this.cor = cor;
+      this.portas = portas;
+    }
+  }
+
+
+  const carro = new Carro('vermelho', 4); //cria um novo obj apartir da class
+
+  const cloneCarro = {...carro}
+```
+* const cloneCarro não herda o método andar(), pois é um clone com uma nova instância 
+
+
