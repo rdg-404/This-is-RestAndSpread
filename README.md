@@ -1,3 +1,5 @@
+REST
+
 ```  javascript
   function example(a, b, ...restoDosParam){
     console.log("a", a);
