@@ -56,6 +56,7 @@ Rest só aceita _...varName_ no final dos parâmetros
 
 
 <br><br><br><br><br><br><br>
+<h1 align="center">Spread</h1>
 
 ``` css
     const items = document.querySelectorAll('li');
