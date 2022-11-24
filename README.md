@@ -40,3 +40,47 @@ Rest só aceita uma _...varName_
 ```
 
 Rest só aceita _...varName_ no final dos parâmetros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br>
+
+``` css
+    const items = document.querySelectorAll('li');
+
+    [...items].map(item => {
+    console.log(item)
+    })
+
+```
+
+* Pega a variavel  espalha seus valores em um array
+
+
+
+``` css
+  const carro = {
+    cor: "azul",
+    portas: 4,
+    ano: 2022
+  };
+
+
+  const cloneCarro = {...carro, turbo: true} 
+
+```
+
+* Herda todas as props do objeto e adiciona mais, caso precise
+
