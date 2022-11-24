@@ -1,4 +1,4 @@
-REST
+<img width="1200" height="600" src="https://image.slidesharecdn.com/restjscodebits2011-111114180849-phpapp02/95/restjs-codebits-2011-29-1024.jpg?cb=1321294318"/>
 
 ```  javascript
   function example(a, b, ...restoDosParam){
@@ -22,10 +22,11 @@ O que vai aparecer no console:
 
 
 _...varName_ <br>
-Pega o restante dos parametros e joga dentro de um array
+* Pega o restante dos parametros e joga dentro de um array
 
+<br><br><br><br>
 
-Maneira errada de usar Rest
+<h1 align="center" >Maneira errada de usar Rest</h1>
 
 
 ``` ruby
