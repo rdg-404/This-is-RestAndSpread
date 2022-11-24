@@ -23,3 +23,19 @@ O que vai aparecer no console:
 
 _...varName_ <br>
 Pega o restante dos parametros e joga dentro de um array
+
+
+Não é uma Rest
+
+
+``` ruby
+    fruitList(...uva, ...banana, ...laranja)
+```
+Rest só aceita uma _...varName_
+
+
+``` ruby
+    fruitList(...uva, banana, laranja)
+```
+
+Rest só aceita _...varName_ no final dos parâmetros
