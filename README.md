@@ -25,7 +25,7 @@ _...varName_ <br>
 Pega o restante dos parametros e joga dentro de um array
 
 
-Não é uma Rest
+Maneira errada de usar Rest
 
 
 ``` ruby
